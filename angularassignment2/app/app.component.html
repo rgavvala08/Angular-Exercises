@@ -1,0 +1,19 @@
+<div id="sitelogo">
+  <img src="../src/app/images/nature.png" [style.marginLeft]="'20px'">
+</div>
+<div id="headermenus">
+  <span *ngFor="let item of headermenu" [title]="item" [style.padding]="'20px'">{{ item }}</span>
+  <img src="../../src/app/images/fb.png" [style.marginLeft]="'20px'">
+</div>
+<div id="headerimage">
+  <span id="spanheader">Header Image</span>
+</div>
+<div id="content">
+<app-box *ngFor="let x of services" [title]="x"></app-box>
+
+</div>
+<div id="footer">
+  <app-footer></app-footer>
+</div>
+
+ 
