@@ -1,0 +1,45 @@
+#headermenus{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+    color:white;
+}
+
+#sitelogo{
+ width:50px;
+
+}
+
+
+#headerimage {
+    background-color: rgb(159, 188, 46, 255);
+    margin-top: 20px;
+    padding: 50px 0;
+    position: relative;
+    text-align: center;
+  }
+  
+  #spanheader {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0 30px;
+    margin: 0;
+  }
+
+  #footercontent{
+    height:220px;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 240px;
+    box-shadow: 2px 2px 5px gray; 
+  }
+
+
+
+
+
+
+

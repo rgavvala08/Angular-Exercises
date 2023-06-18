@@ -1,0 +1,23 @@
+.box{
+
+    height:140px;
+    width:500px;
+    margin: 20px;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    color: black;
+    float: left;
+    box-shadow: 2px 2px 5px gray; 
+}
+
+
+.box2{
+    height:100px;
+    margin:20px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 2px 2px 5px gray; 
+
+}
+

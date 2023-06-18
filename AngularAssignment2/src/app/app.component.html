@@ -1,0 +1,49 @@
+<div id="sitelogo">
+   <img src="assets/images/nature.png" alt=""  [style.width]="'40px'">
+</div>
+<div id="headermenus">
+  <span *ngFor="let item of headermenu" [title]="item" [style.padding]="'20px'">{{ item }}</span>
+  <img src="assets/images/fb.png" alt=""  [style.width]="'40px'" [style.float]="'right'" [style.paddingRight]="'20px'" >
+</div>
+<div id="headerimage">
+  <span id="spanheader">Header Image</span>
+</div>
+<div id="content">
+<app-box *ngFor="let x of services" [title]="x"></app-box>
+
+</div>
+<div id="footercontent"> 
+  <div style="float: left;"> 
+    <ng-container *ngFor="let item of footermenu"> 
+      <h2 *ngIf="item === 'Content'" [style.paddingLeft]="'10px'">Content</h2> 
+      <p *ngIf="item === 'Content'" [style.paddingLeft]="'10px'">Loreum ipsum dolor sitv amet,consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvolutpat.</p> 
+      <h2 *ngIf="item === 'subHeader'" [style.paddingLeft]="'10px'">Sub Header</h2> 
+      <p *ngIf="item === 'subHeader'" [style.paddingLeft]="'10px'">Loreum ipsum dolor sitv amet,consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvolutpat.</p> 
+    </ng-container>
+   </div> 
+   <div style="float: right;">
+     <h2 [style.paddingRight]="'120px'">Navigation</h2> 
+    <ul [style.backgroundColor]="'white'" [style.width]="'150px'">
+      <li>
+        Home
+      </li>
+      <br>
+      <li>
+        Product
+      </li>
+      <br>
+      <li>
+        Company
+      </li>
+      <br>
+      <li>
+        Contact
+      </li>
+    </ul>
+    </div> 
+  </div>
+<div id="footer">
+  <app-footer></app-footer>
+</div>
+
+ 

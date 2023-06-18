@@ -1,0 +1,11 @@
+<div class="box" [ngStyle]="boxtheme" [ngStyle]="{ 'height': boxtitle === 'Content' ? '220px' : '150px','width': boxtitle === 'Content' ? '98%' : '30%' }">
+    <h3 [style.color]="boxtheme.color">{{boxtitle}}</h3>
+    <ul>
+        <li *ngFor="let x of features">
+                        {{x}}
+        </li>
+    </ul>
+</div>
+
+
+
